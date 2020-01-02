@@ -52,7 +52,7 @@ namespace App1
             bool b = n >= array.Length ? true : false;
             if (b == false)
             {
-                LoopRecursive(array, n);
+               return LoopRecursive(array, n);
             }
             return 0;
         }
