@@ -57,20 +57,19 @@ namespace App1
             return 0;
         }
 
-        static int ForLoop(Int16[] array)
+        static Int16 ForLoop(Int16[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 == 0)
                 {
-                    //System.Console.Write(" | " + array[i] + " | ");
                     return array[i];
                 }
             }
             return 0;
         }
 
-        static int ForeachLoop(Int16[] array)
+        static Int16 ForeachLoop(Int16[] array)
         {
             foreach (var item in array)
             {
