@@ -9,3 +9,14 @@ f:\ProjetosC#\App1\obj\Debug\netcoreapp3.0\App1.AssemblyInfoInputs.cache
 f:\ProjetosC#\App1\obj\Debug\netcoreapp3.0\App1.AssemblyInfo.cs
 f:\ProjetosC#\App1\obj\Debug\netcoreapp3.0\App1.dll
 f:\ProjetosC#\App1\obj\Debug\netcoreapp3.0\App1.pdb
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.exe
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.deps.json
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.runtimeconfig.json
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.runtimeconfig.dev.json
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.dll
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\bin\Debug\netcoreapp3.0\App1.pdb
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\obj\Debug\netcoreapp3.0\App1.csprojAssemblyReference.cache
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\obj\Debug\netcoreapp3.0\App1.AssemblyInfoInputs.cache
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\obj\Debug\netcoreapp3.0\App1.AssemblyInfo.cs
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\obj\Debug\netcoreapp3.0\App1.dll
+F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\obj\Debug\netcoreapp3.0\App1.pdb

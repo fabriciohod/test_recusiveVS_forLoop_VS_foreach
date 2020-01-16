@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProjetosC#\\App1\\App1.csproj",
+      "projectUniqueName": "F:\\GitHub\\teste_recusiveVS_forLoop_VS_foreach\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "F:\\ProjetosC#\\App1\\App1.csproj",
+      "projectPath": "F:\\GitHub\\teste_recusiveVS_forLoop_VS_foreach\\App1.csproj",
       "packagesPath": "C:\\Users\\fahod\\.nuget\\packages\\",
-      "outputPath": "F:\\ProjetosC#\\App1\\obj\\",
+      "outputPath": "F:\\GitHub\\teste_recusiveVS_forLoop_VS_foreach\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fahod\\AppData\\Roaming\\NuGet\\NuGet.Config",
