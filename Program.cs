@@ -9,7 +9,7 @@ namespace App1
             #region array de Input
             // Criando o array
             int[] array = new int[10];
-            // preenchendo o array com numeros de -999 ate +999
+            // Preenchendo o array com numeros de -999 ate +999
             // E imprimindo os valores do array na tela 
             for (int i = 0; i < array.Length; i++)
             {
@@ -58,7 +58,7 @@ namespace App1
         {
             if (n >= array.Length)
             {
-                return -1;
+                return 1;
             }
             else if (array[n] % 2 == 0 && n <= array.Length)
             {
@@ -69,7 +69,7 @@ namespace App1
             {
                 LoopRecursive(array, n + 1);
             }
-            return -2;
+            return 0;
         }
         static int ForLoop(int[] array)
         {
