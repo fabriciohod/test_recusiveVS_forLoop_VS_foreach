@@ -72,15 +72,7 @@ namespace App1
             // Local arquivo
             //File Location
             string path = @"F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\resultados.txt";
-            // Verificando se ja existe um arquivo
-            //Checking if a file already exists
-            if (File.Exists(@"\resultados.txt") == false)
-            {
-                using (StreamWriter txt = new StreamWriter("resultados.txt"))
-                {
 
-                }
-            }
             // Armazenado os valores das medias
             //Stored average values
             Int64 mediaR = 0;
@@ -111,10 +103,11 @@ namespace App1
             }
             #endregion
 
-            #region Creating and populating the file
+            #region Writing on file
             using (StreamWriter txt = File.AppendText(path))
             {
                 // Escrevendo os Resultados do teste
+                // Writing Test Results
                 txt.WriteLine(
                     $"-> Tempo recursivo: {BenchMark[0].ElapsedTicks}" +
                     "\n" +
@@ -124,6 +117,7 @@ namespace App1
                     + "\n"
                 );
                 // Escrevendo os Resultados das medias
+                // Writing Average Results
                 txt.WriteLine(
                     $"*media* recursivo: {mediaR}" +
                     "\n" +

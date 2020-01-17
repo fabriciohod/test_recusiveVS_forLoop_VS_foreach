@@ -1,8 +1,0 @@
--> Tempo recursivo: 13123
--> Tempo com o for: 6913
--> Tempo com o foreach: 57077
-
-*media* recursivo: 0
-*media* com o for: 0
-*media* com o foreach: 0
-
