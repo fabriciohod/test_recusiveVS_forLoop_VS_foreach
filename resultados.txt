@@ -1,0 +1,8 @@
+-> Recursive time: 20812
+-> Time with the for: 9072
+-> Time with foreach: 7783
+
+*media* recursivo: 0
+*media* com o for: 0
+*media* com o foreach: 0
+

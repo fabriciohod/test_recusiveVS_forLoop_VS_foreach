@@ -85,17 +85,17 @@ namespace App1
             {
                 int[] count = new int[3];
 
-                if (line.Contains("-> Tempo recursivo: "))
+                if (line.Contains("-> Recursive time: "))
                 {
                     count[0]++;
                     mediaR += (BenchMark[0].ElapsedTicks + BenchMark[0].ElapsedTicks) / count[0];
                 }
-                else if (line.Contains("-> Tempo com o for: "))
+                else if (line.Contains("-> Time with the for: "))
                 {
                     count[1]++;
                     mediaF += (BenchMark[1].ElapsedTicks + BenchMark[1].ElapsedTicks) / count[1];
                 }
-                else if (line.Contains("-> Tempo com o foreach: "))
+                else if (line.Contains("-> Time with foreach: "))
                 {
                     count[2]++;
                     mediaFF += (BenchMark[2].ElapsedTicks + BenchMark[2].ElapsedTicks) / count[2];
@@ -109,11 +109,11 @@ namespace App1
                 // Escrevendo os Resultados do teste
                 // Writing Test Results
                 txt.WriteLine(
-                    $"-> Tempo recursivo: {BenchMark[0].ElapsedTicks}" +
+                    $"-> Recursive time: {BenchMark[0].ElapsedTicks}" +
                     "\n" +
-                    $"-> Tempo com o for: {BenchMark[1].ElapsedTicks}" +
+                    $"-> Time with the for: {BenchMark[1].ElapsedTicks}" +
                     "\n" +
-                    $"-> Tempo com o foreach: {BenchMark[2].ElapsedTicks}"
+                    $"-> Time with foreach: {BenchMark[2].ElapsedTicks}"
                     + "\n"
                 );
                 // Escrevendo os Resultados das medias
