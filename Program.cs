@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-using System.Collections.Generic;
+using System.Management.Automation;
 using System.IO;
 using System;
 namespace App1
@@ -8,19 +8,21 @@ namespace App1
     {
         static void Main()
         {
-
-            #region array de Input
-            // Criando o array
+            #region Array Input
             int[] array = new int[10];
             // Preenchendo o array com numeros de -999 ate +999
-            // E imprimindo os valores do array na tela 
+            // E imprimindo os valores do array na tela
+
+            // Filling the array with numbers from -999 to +999
+            // And printing array values on screen
             for (int i = 0; i < array.Length; i++)
             {
                 Random rdn = new Random();
                 array[i] = rdn.Next(-999, 999);
                 Console.Write($"|{array[i]}");
             }
-            // Dividindo o Input dos resultados
+            // Formatando o resultado
+            // Formatting the result
             Console.WriteLine("\n");
             #endregion
 
@@ -30,6 +32,7 @@ namespace App1
             // BenchMark[2] = Foreach
             Stopwatch[] BenchMark = new Stopwatch[3];
             // instanciando os obj´s
+            //instantiating the obj´s
             for (int i = 0; i < BenchMark.Length; i++)
             {
                 BenchMark[i] = new Stopwatch();
@@ -58,22 +61,26 @@ namespace App1
             #endregion
 
             #region Calculando Media
-            // Local de Criação do arquivo
-            string path = @"F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\resultados.txt";
+            // Local arquivo
+            //File Location
+            string path = @"C:\GitHub\teste_recusiveVS_forLoop_VS_foreach\resultados.txt";
             // Verificando se ja existe um arquivo
+            //Checking if a file already exists
             if (File.Exists(@"\resultados.txt") == false)
             {
-                using (StreamWriter txt = new StreamWriter(path))
+                using (StreamWriter txt = new StreamWriter("resultados.txt"))
                 {
 
                 }
             }
-            // Armazenado os valores das medias 
+            // Armazenado os valores das medias
+            //Stored average values
             Int64 mediaR = 0;
             Int64 mediaF = 0;
             Int64 mediaFF = 0;
 
-            // Varendo todas as linhas do documento txt
+            // Lendo todas as linhas do documento txt
+            //Reading all lines of txt document
             foreach (var line in File.ReadLines(path))
             {
                 int[] count = new int[3];
@@ -96,7 +103,7 @@ namespace App1
             }
             #endregion
 
-            // Criando e Preenchando o arquivo
+            #region Criando e Preenchando o arquivo
             using (StreamWriter txt = File.AppendText(path))
             {
                 // Escrevendo os Resultados do teste
@@ -118,6 +125,8 @@ namespace App1
                     + "\n"
                 );
             }
+            #endregion
+
         }
         static int LoopRecursive(int[] array, int n = 0)
         {
