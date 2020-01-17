@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Management.Automation;
 using System.IO;
 using System;
 namespace App1
