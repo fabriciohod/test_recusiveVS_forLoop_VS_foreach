@@ -1,8 +1,88 @@
--> Recursive time: 20812
--> Time with the for: 9072
--> Time with foreach: 7783
+-> Recursive time: 5966
+-> Time with the for: 55781
+-> Time with foreach: 5376
 
-*media* recursivo: 0
-*media* com o for: 0
-*media* com o foreach: 0
+*average* Recursive: 0
+*average* with use for: 0
+*average* with use foreach: 0
+
+-> Recursive time: 8329
+-> Time with the for: 46653
+-> Time with foreach: 8214
+
+*average* Recursive: 16658
+*average* with use for: 93306
+*average* with use foreach: 16428
+
+-> Recursive time: 13070
+-> Time with the for: 6792
+-> Time with foreach: 8527
+
+*average* Recursive: 52280
+*average* with use for: 27168
+*average* with use foreach: 34108
+
+-> Recursive time: 51036
+-> Time with the for: 13067
+-> Time with foreach: 13151
+
+*average* Recursive: 306216
+*average* with use for: 78402
+*average* with use foreach: 78906
+
+-> Recursive time: 10492
+-> Time with the for: 8300
+-> Time with foreach: 7401
+
+*average* Recursive: 83936
+*average* with use for: 66400
+*average* with use foreach: 59208
+
+-> Recursive time: 9990
+-> Time with the for: 55197
+-> Time with foreach: 17991
+
+*average* Recursive: 99900
+*average* with use for: 551970
+*average* with use foreach: 179910
+
+-> Recursive time: 56117
+-> Time with the for: 7379
+-> Time with foreach: 11409
+
+*average* Recursive: 673404
+*average* with use for: 88548
+*average* with use foreach: 136908
+
+-> Recursive time: 60284
+-> Time with the for: 21080
+-> Time with foreach: 9797
+
+*average* Recursive: 843976
+*average* with use for: 295120
+*average* with use foreach: 137158
+
+-> Recursive time: 13172
+-> Time with the for: 8459
+-> Time with foreach: 7802
+
+*average* Recursive: 210752
+*average* with use for: 135344
+*average* with use foreach: 124832
+
+-> Recursive time: 23855
+-> Time with the for: 4625
+-> Time with foreach: 5696
+
+*average* Recursive: 429390
+*average* with use for: 83250
+*average* with use foreach: 102528
+
+-> Recursive time: 5892
+-> Time with the for: 6131
+-> Time with foreach: 4753
+
+*average* Recursive: 117840
+*average* with use for: 122620
+*average* with use foreach: 95060
 
