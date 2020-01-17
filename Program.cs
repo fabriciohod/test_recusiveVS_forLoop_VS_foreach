@@ -119,11 +119,11 @@ namespace App1
                 // Escrevendo os Resultados das medias
                 // Writing Average Results
                 txt.WriteLine(
-                    $"*media* recursivo: {mediaR}" +
+                    $"*average* Recursive: {mediaR}" +
                     "\n" +
-                    $"*media* com o for: {mediaF}" +
+                    $"*average* with use for: {mediaF}" +
                     "\n" +
-                    $"*media* com o foreach: {mediaFF}"
+                    $"*average* with use foreach: {mediaFF}"
                     + "\n"
                 );
             }
