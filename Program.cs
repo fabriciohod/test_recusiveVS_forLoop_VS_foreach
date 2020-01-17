@@ -80,7 +80,7 @@ namespace App1
             Int64 mediaFF = 0;
 
             // Lendo todas as linhas do documento txt
-            //Reading all lines of txt document
+            // Reading all lines of txt document
             foreach (var line in File.ReadLines(path))
             {
                 int[] count = new int[3];
