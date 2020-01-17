@@ -7,7 +7,7 @@ namespace App1
     {
         static void Main()
         {
-            #region Array Input
+            #region Input Array
             int[] array = new int[10];
             // Preenchendo o array com numeros de -999 ate +999
             // E imprimindo os valores do array na tela
@@ -41,28 +41,37 @@ namespace App1
             #region Recursive
             BenchMark[0].Start();
             LoopRecursive(array);
+            Console.Write(" -> Recursive\n");
             BenchMark[0].Stop();
-            Console.WriteLine($" -> Tempo recursivo: {BenchMark[0].ElapsedTicks}");
             #endregion
 
             #region ForLoop
             BenchMark[1].Start();
             ForLoop(array);
+            Console.Write(" -> ForLoop\n");
             BenchMark[1].Stop();
-            Console.WriteLine($" -> Tempo com o for: {BenchMark[1].ElapsedTicks}");
             #endregion
 
             #region Foreach
             BenchMark[2].Start();
             ForeachLoop(array);
+            Console.Write(" -> Foreach\n");
             BenchMark[2].Stop();
-            Console.WriteLine($" -> Tempo com o foreach: {BenchMark[2].ElapsedTicks}");
             #endregion
 
-            #region Calculando Media
+            Console.WriteLine(
+                $"-> Recursive time: {BenchMark[0].ElapsedTicks}" +
+                "\n" +
+                $"-> Time with the for: {BenchMark[1].ElapsedTicks}" +
+                "\n" +
+                $"-> Time with foreach: {BenchMark[2].ElapsedTicks}"
+                + "\n"
+            );
+
+            #region Calculating Average
             // Local arquivo
             //File Location
-            string path = @"C:\GitHub\teste_recusiveVS_forLoop_VS_foreach\resultados.txt";
+            string path = @"F:\GitHub\teste_recusiveVS_forLoop_VS_foreach\resultados.txt";
             // Verificando se ja existe um arquivo
             //Checking if a file already exists
             if (File.Exists(@"\resultados.txt") == false)
@@ -102,7 +111,7 @@ namespace App1
             }
             #endregion
 
-            #region Criando e Preenchando o arquivo
+            #region Creating and populating the file
             using (StreamWriter txt = File.AppendText(path))
             {
                 // Escrevendo os Resultados do teste
@@ -167,7 +176,7 @@ namespace App1
                     Console.Write($"|{item}");
                 }
             }
-            return -8;
+            return 0;
         }
     }
 }
